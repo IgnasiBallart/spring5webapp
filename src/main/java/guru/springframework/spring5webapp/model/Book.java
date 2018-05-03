@@ -28,13 +28,13 @@ public class Book {
     public Book(String title, String isbn, Publisher publisher) {
         this.title = title;
         this.isbn = isbn;
+        this.publisher = publisher;
     }
 
     public Book(String title, String isbn, Set<Author> authors) {
         this.title = title;
         this.isbn = isbn;
         this.authors = authors;
-        this.publisher = publisher;
     }
 
     public Long getId() {
